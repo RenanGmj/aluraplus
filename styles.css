@@ -1,0 +1,234 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito:#235a9d;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+.container__caixa{
+    margin: 0 6em;
+}
+.segundario__imagem{
+    position: absolute;
+    width: 498px;
+    height: 560px;
+    left: 165px;
+    top: 775px;;
+}
+.container__descrição{
+    position: absolute;
+    width: 588px;
+    height: 114px;
+    left: 732px;
+    top: 998px;
+
+}
+.descrição__titulo{
+    font-family: var(--fonte-principal);
+    font-Weight:700, Bold;
+    font-Size:48px;
+    line-height:57.6px;
+}
+.descrição__texto{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.descrição2{
+    position: absolute;
+    width: 588px;
+    height: 72px;
+    left: 120px;
+    top: 1584px;
+}
+.botão{
+    background-color: var(--botao-azul);
+    position: absolute;
+    width: 134px;
+    height: 24px;
+    left: 120px;
+    top: 1672px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    border-radius: 8px;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    color:var(--branco-principal);
+    text-decoration: none;
+}
+.imagem{
+    position: absolute;
+    width: 496px;
+    height: 338.96px;
+    left: 778px;
+    top: 1486px;
+}
+.group22{
+    position: absolute;
+    width: 588px;
+    height: 114px;
+    left: 732px;
+    top: 2156px;
+}
+.titulo2{
+    height: 58px;
+    width: 588px;
+    left: 732px;
+    top: 2156px;
+    border-radius: nullpx;
+
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+
+ 
+}
+.notbook{
+    position: absolute;
+    width: 547px;
+    height: 324px;
+    left: 141px;
+    top: 2051px;
+
+
+}
+.dispositivos{
+    text-align: center;
+    margin: 220px 0 0 0;
+    
+    
+
+}
+.dispositivo__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 0 40px 0;
+
+}
+
+    
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+
+}
+.lista__item{
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+
+}
+ 
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
+   
